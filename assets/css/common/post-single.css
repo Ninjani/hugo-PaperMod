@@ -5,7 +5,7 @@
 
 .post-title {
     margin-bottom: 2px;
-    font-size: 40px;
+    font-size: 36px;
 }
 
 .post-description {
@@ -44,17 +44,17 @@
 }
 
 .post-content h1 {
-    margin: 40px auto 32px;
-    font-size: 40px;
+    margin: 36px auto 32px;
+    font-size: 36px
 }
 
 .post-content h2 {
-    margin: 32px auto 24px;
-    font-size: 32px;
+    margin: 24px auto 20px;
+    font-size: 24px
 }
 
 .post-content h3 {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .post-content h4 {
@@ -72,6 +72,7 @@
 .post-content a,
 .toc a:hover {
     box-shadow: 0 1px 0;
+    color: var(--color);
 }
 
 .post-content a code {
@@ -191,6 +192,10 @@
 
 .post-content .highlighttable td .highlight pre code::-webkit-scrollbar {
     display: none;
+}
+
+.post-content .highlight span {
+    background: 0 0 !important
 }
 
 .post-content code {
